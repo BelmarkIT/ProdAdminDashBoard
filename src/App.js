@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './App.css';
 
 import { makeStyles } from '@material-ui/core/styles';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import Header from './components/Header';
-import StatBoxesSection from './components/StatBoxes/StatBoxesSection';
-import GraphSection from './components/Graphs/GraphSection';
+import SpecDashboard from './components/SpecDashboard';
+import OverviewDashboard from './components/OverviewDashboard';
 
 const theme = createMuiTheme({
 	palette: {
@@ -35,21 +35,19 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function App() {
-	const [data, setData] = useState({
-		currentFootageOnHand: 0,
-		minimumFootageOnHand: 0,
-		daysLeftInInventory: 0,
-		currentFootageOnOrder: 0,
-		currentFootageCommited: 0,
-	});
 	const classes = useStyles();
 
 	return (
 		<div className={classes.root}>
 			<ThemeProvider theme={theme}>
-				<Header />
-				<StatBoxesSection data={data} />
-				<GraphSection data={data} />
+				<Router>
+					<Route exact path='/Spec'>
+						<SpecDashboard />
+					</Route>
+					<Route exact path='/'>
+						<OverviewDashboard />
+					</Route>
+				</Router>
 			</ThemeProvider>
 		</div>
 	);

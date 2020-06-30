@@ -8,6 +8,7 @@ const useStyles = makeStyles((theme) => ({
 		display: 'grid',
 		gridTemplateColumns: 'repeat( auto-fit, minmax(250px, 1fr) );',
 		justifyItems: 'center',
+		margin: '1rem',
 	},
 }));
 
