@@ -26,10 +26,10 @@ const Drawer = ({ isOpen, toggleDrawer }) => {
 			onOpen={toggleDrawer(true)}
 		>
 			<div className={classes.linksContainer}>
-				<Link className={classes.link} to='/'>
+				<Link className={classes.link} to='/Belmark/ProdAdminDashBoard/'>
 					Overview
 				</Link>
-				<Link className={classes.link} to='/Spec'>
+				<Link className={classes.link} to='/Belmark/ProdAdminDashBoard/Spec'>
 					Spec Specific
 				</Link>
 			</div>

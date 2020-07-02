@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bf1c121f0ff87acf824aeab86271f222",
+    "revision": "a0bd7d25b3618c5c3d8e3788bee29ca3",
     "url": "/Belmark/ProdAdminDashBoard/index.html"
   },
   {
-    "revision": "cdcb6aa8612486839453",
+    "revision": "159d85d3d45fd924a5cf",
     "url": "/Belmark/ProdAdminDashBoard/static/css/main.58b11d5e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Belmark/ProdAdminDashBoard/static/js/2.ca1f10fc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cdcb6aa8612486839453",
-    "url": "/Belmark/ProdAdminDashBoard/static/js/main.e3714fa3.chunk.js"
+    "revision": "159d85d3d45fd924a5cf",
+    "url": "/Belmark/ProdAdminDashBoard/static/js/main.bec3c7a3.chunk.js"
   },
   {
     "revision": "6fc251611f057865bf72",

@@ -46,13 +46,13 @@ function App() {
 			<div className={classes.root}>
 				<ThemeProvider theme={theme}>
 					<Router>
-						<Route exact path='/Spec'>
+						<Route exact path='/Belmark/ProdAdminDashBoard/Spec'>
 							<SpecDashboard
 								displayData={displayData}
 								setDisplayData={setDisplayData}
 							/>
 						</Route>
-						<Route exact path='/'>
+						<Route exact path='/Belmark/ProdAdminDashBoard/'>
 							<OverviewDashboard
 								displayData={displayData}
 								setDisplayData={setDisplayData}
