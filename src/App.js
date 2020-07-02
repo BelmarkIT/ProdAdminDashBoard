@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 
 import { makeStyles } from '@material-ui/core/styles';
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Paper } from '@material-ui/core';
 
 import SpecDashboard from './components/SpecDashboard';
 import OverviewDashboard from './components/OverviewDashboard';
@@ -37,19 +38,30 @@ const useStyles = makeStyles((theme) => ({
 function App() {
 	const classes = useStyles();
 
+	// This will be a material as of right now
+	const [displayData, setDisplayData] = useState(null);
+
 	return (
-		<div className={classes.root}>
-			<ThemeProvider theme={theme}>
-				<Router>
-					<Route exact path='/Spec'>
-						<SpecDashboard />
-					</Route>
-					<Route exact path='/'>
-						<OverviewDashboard />
-					</Route>
-				</Router>
-			</ThemeProvider>
-		</div>
+		<Paper>
+			<div className={classes.root}>
+				<ThemeProvider theme={theme}>
+					<Router>
+						<Route exact path='/Spec'>
+							<SpecDashboard
+								displayData={displayData}
+								setDisplayData={setDisplayData}
+							/>
+						</Route>
+						<Route exact path='/'>
+							<OverviewDashboard
+								displayData={displayData}
+								setDisplayData={setDisplayData}
+							/>
+						</Route>
+					</Router>
+				</ThemeProvider>
+			</div>
+		</Paper>
 	);
 }
 

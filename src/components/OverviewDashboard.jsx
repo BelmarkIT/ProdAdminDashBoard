@@ -5,27 +5,21 @@ import { makeStyles } from '@material-ui/core/styles';
 import Header from './Nav/Header';
 import StatBoxesSection from './StatBoxes/StatBoxesSection';
 import GraphSection from './Graphs/GraphSection';
+import GetDataSection from './No Data/GetDataSection';
 
 const useStyles = makeStyles((theme) => ({
 	root: {},
 }));
 
-const OverviewDashboard = () => {
+const OverviewDashboard = ({ displayData, setDisplayData }) => {
 	const classes = useStyles();
-
-	const [data, setData] = useState({
-		currentFootageOnHand: 0,
-		minimumFootageOnHand: 0,
-		daysLeftInInventory: 0,
-		currentFootageOnOrder: 0,
-		currentFootageCommited: 0,
-	});
 
 	return (
 		<>
 			<Header title='Overview' />
-			<StatBoxesSection data={data} />
-			<GraphSection />
+			<GetDataSection setDisplayData={setDisplayData} />
+			<StatBoxesSection data={displayData} dashboard='overview' />
+			<GraphSection data={displayData} dashboard='overview' />
 		</>
 	);
 };

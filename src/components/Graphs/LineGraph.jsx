@@ -15,7 +15,7 @@ const useStyles = makeStyles({
 	chartContainer: {
 		width: '90%',
 		height: 250,
-		padding: 10,
+		paddingBottom: 30,
 	},
 	chartTile: {
 		color: '#fff',
