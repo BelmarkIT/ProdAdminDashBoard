@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Belmark/ProdAdminDashBoard-master/react-scripts/build/precache-manifest.dbb09db360b1901623c8b0651bb5047b.js"
+  "/Belmark/ProdAdminDashBoard/precache-manifest.066ef584c6fb19c73ed80f6d99df0bda.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/Belmark/ProdAdminDashBoard-master/react-scripts/build/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/Belmark/ProdAdminDashBoard/index.html"), {
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });

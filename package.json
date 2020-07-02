@@ -1,6 +1,6 @@
 {
 	"name": "client",
-	"homepage": "http://ernie.belmark.com:8850/Belmark/ProdAdminDashBoard-master/react-scripts/build",
+	"homepage": "http://ernie.belmark.com:8850/Belmark/ProdAdminDashBoard",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {

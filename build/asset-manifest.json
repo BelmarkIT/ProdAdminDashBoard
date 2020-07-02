@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Belmark/ProdAdminDashBoard-master/react-scripts/build/static/css/main.58b11d5e.chunk.css",
-    "main.js": "/Belmark/ProdAdminDashBoard-master/react-scripts/build/static/js/main.cf75dfe6.chunk.js",
-    "main.js.map": "/Belmark/ProdAdminDashBoard-master/react-scripts/build/static/js/main.cf75dfe6.chunk.js.map",
-    "runtime-main.js": "/Belmark/ProdAdminDashBoard-master/react-scripts/build/static/js/runtime-main.d15ad11a.js",
-    "runtime-main.js.map": "/Belmark/ProdAdminDashBoard-master/react-scripts/build/static/js/runtime-main.d15ad11a.js.map",
-    "static/js/2.ca1f10fc.chunk.js": "/Belmark/ProdAdminDashBoard-master/react-scripts/build/static/js/2.ca1f10fc.chunk.js",
-    "static/js/2.ca1f10fc.chunk.js.map": "/Belmark/ProdAdminDashBoard-master/react-scripts/build/static/js/2.ca1f10fc.chunk.js.map",
-    "index.html": "/Belmark/ProdAdminDashBoard-master/react-scripts/build/index.html",
-    "precache-manifest.dbb09db360b1901623c8b0651bb5047b.js": "/Belmark/ProdAdminDashBoard-master/react-scripts/build/precache-manifest.dbb09db360b1901623c8b0651bb5047b.js",
-    "service-worker.js": "/Belmark/ProdAdminDashBoard-master/react-scripts/build/service-worker.js",
-    "static/css/main.58b11d5e.chunk.css.map": "/Belmark/ProdAdminDashBoard-master/react-scripts/build/static/css/main.58b11d5e.chunk.css.map",
-    "static/js/2.ca1f10fc.chunk.js.LICENSE.txt": "/Belmark/ProdAdminDashBoard-master/react-scripts/build/static/js/2.ca1f10fc.chunk.js.LICENSE.txt"
+    "main.css": "/Belmark/ProdAdminDashBoard/static/css/main.58b11d5e.chunk.css",
+    "main.js": "/Belmark/ProdAdminDashBoard/static/js/main.e3714fa3.chunk.js",
+    "main.js.map": "/Belmark/ProdAdminDashBoard/static/js/main.e3714fa3.chunk.js.map",
+    "runtime-main.js": "/Belmark/ProdAdminDashBoard/static/js/runtime-main.545b2035.js",
+    "runtime-main.js.map": "/Belmark/ProdAdminDashBoard/static/js/runtime-main.545b2035.js.map",
+    "static/js/2.ca1f10fc.chunk.js": "/Belmark/ProdAdminDashBoard/static/js/2.ca1f10fc.chunk.js",
+    "static/js/2.ca1f10fc.chunk.js.map": "/Belmark/ProdAdminDashBoard/static/js/2.ca1f10fc.chunk.js.map",
+    "index.html": "/Belmark/ProdAdminDashBoard/index.html",
+    "precache-manifest.066ef584c6fb19c73ed80f6d99df0bda.js": "/Belmark/ProdAdminDashBoard/precache-manifest.066ef584c6fb19c73ed80f6d99df0bda.js",
+    "service-worker.js": "/Belmark/ProdAdminDashBoard/service-worker.js",
+    "static/css/main.58b11d5e.chunk.css.map": "/Belmark/ProdAdminDashBoard/static/css/main.58b11d5e.chunk.css.map",
+    "static/js/2.ca1f10fc.chunk.js.LICENSE.txt": "/Belmark/ProdAdminDashBoard/static/js/2.ca1f10fc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d15ad11a.js",
+    "static/js/runtime-main.545b2035.js",
     "static/js/2.ca1f10fc.chunk.js",
     "static/css/main.58b11d5e.chunk.css",
-    "static/js/main.cf75dfe6.chunk.js"
+    "static/js/main.e3714fa3.chunk.js"
   ]
 }
