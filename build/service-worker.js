@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Belmark/ProdAdminDashBoard/precache-manifest.da5525ebeea06f3f16b4690681b63d0b.js"
+  "/Belmark/ProdAdminDashBoard/precache-manifest.7c54b16e9189209eaa61bdd7ea3f11c3.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Belmark/ProdAdminDashBoard/static/css/main.3a54b2b6.chunk.css",
-    "main.js": "/Belmark/ProdAdminDashBoard/static/js/main.80acae13.chunk.js",
-    "main.js.map": "/Belmark/ProdAdminDashBoard/static/js/main.80acae13.chunk.js.map",
+    "main.js": "/Belmark/ProdAdminDashBoard/static/js/main.344f0ae9.chunk.js",
+    "main.js.map": "/Belmark/ProdAdminDashBoard/static/js/main.344f0ae9.chunk.js.map",
     "runtime-main.js": "/Belmark/ProdAdminDashBoard/static/js/runtime-main.545b2035.js",
     "runtime-main.js.map": "/Belmark/ProdAdminDashBoard/static/js/runtime-main.545b2035.js.map",
     "static/js/2.ca1f10fc.chunk.js": "/Belmark/ProdAdminDashBoard/static/js/2.ca1f10fc.chunk.js",
     "static/js/2.ca1f10fc.chunk.js.map": "/Belmark/ProdAdminDashBoard/static/js/2.ca1f10fc.chunk.js.map",
     "index.html": "/Belmark/ProdAdminDashBoard/index.html",
-    "precache-manifest.da5525ebeea06f3f16b4690681b63d0b.js": "/Belmark/ProdAdminDashBoard/precache-manifest.da5525ebeea06f3f16b4690681b63d0b.js",
+    "precache-manifest.7c54b16e9189209eaa61bdd7ea3f11c3.js": "/Belmark/ProdAdminDashBoard/precache-manifest.7c54b16e9189209eaa61bdd7ea3f11c3.js",
     "service-worker.js": "/Belmark/ProdAdminDashBoard/service-worker.js",
     "static/css/main.3a54b2b6.chunk.css.map": "/Belmark/ProdAdminDashBoard/static/css/main.3a54b2b6.chunk.css.map",
     "static/js/2.ca1f10fc.chunk.js.LICENSE.txt": "/Belmark/ProdAdminDashBoard/static/js/2.ca1f10fc.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.545b2035.js",
     "static/js/2.ca1f10fc.chunk.js",
     "static/css/main.3a54b2b6.chunk.css",
-    "static/js/main.80acae13.chunk.js"
+    "static/js/main.344f0ae9.chunk.js"
   ]
 }
